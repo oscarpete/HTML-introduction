@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color-text: white;
+    font-family: "Roboto Light";
+}
+h2 {
+    color: antiquewhite;
+}
+p {
+    color: lightseagreen;
+}
+.photo {
+    background: https://vimeo.com/273604783;
+}
