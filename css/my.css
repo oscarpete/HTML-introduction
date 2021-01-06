@@ -3,7 +3,7 @@ body {
     color-text: white;
     font-family: "Roboto Light";
 }
-h2 {
+h2, div {
     color: antiquewhite;
 }
 p {
