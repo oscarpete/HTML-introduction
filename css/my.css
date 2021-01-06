@@ -35,3 +35,56 @@ header .contenedor {
     color: var(--rojo);
     font-size: 80px;
 }
+#tablita {
+    align="center";
+    width:100%;
+    height:100%;
+
+}
+table {
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+    border: 3px solid whitesmoke;
+}
+.contenio{
+    align="center";
+    margin: auto;
+    width:50%;
+    padding: 50px 100px;
+}
+.piedepa {
+    text-align: center;
+    padding: 50px 100px;
+    font-size: 30px;
+}
+/*----------------------*------------------- */
+.pelicula-principal {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/meonletter.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.pelicula-principal .contenedor {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.pelicula-principal .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    margin-top: 4em;
+}
+
+.pelicula-principal .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 40%;
+    margin-bottom: 1.25em;
+}
