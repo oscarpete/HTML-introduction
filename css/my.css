@@ -44,6 +44,8 @@ header .contenedor {
 table {
     margin: 0 auto; /* or margin: 0 auto 0 auto */
     border: 3px solid whitesmoke;
+    border-collapse: separate;
+    border-spacing: 15px;
 }
 .contenio{
     align="center";
@@ -106,6 +108,9 @@ table {
     }
 
     .pelicula-principal .descripcion, .contenio{
+        max-width: 100%;
+    }
+    .contenio{
         max-width: 100%;
     }
 }
